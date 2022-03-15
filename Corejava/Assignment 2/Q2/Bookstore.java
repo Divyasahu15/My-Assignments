@@ -53,13 +53,13 @@ public class Bookstore {
 	}
 
 	public void display() {
-		System.out.println("**********Book store *****************");
+		System.out.println("...............Book store....................");
 		System.out.println(bookStoreName);
-		System.out.println("^^^^^^^^^^^^^^^Books details^^^^^^^^^^^^^^^^^^^^^^^^^");
+		System.out.println("-------------Books details---------------");
 		for(Book book: books) {
 			book.display();
 		}
-		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+		System.out.println("---------------------------------------");
 		
 	}
 }
