@@ -26,8 +26,8 @@ public class AddBook {
 						prepareStatement("insert into book(book_id, book_name, book_author, book_price) values(?,?,?,?)");
 				
 				stmt.setInt(1, 10006);
-				stmt.setString(2, "Making of New India");
-				stmt.setString(3, "Dr. Bibek Debroy");
+				stmt.setString(2, "Electric Machine");
+				stmt.setString(3, "P.S. Bhimrao");
 				stmt.setInt(4, 700);
 				
 				int noOfRowsEffected= stmt.executeUpdate();
